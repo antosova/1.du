@@ -1,4 +1,5 @@
-#program pro hraní piškvorek na libovolně velké hrací ploše tvořené z šestiúhelníků
+#program pro hraní piškvorek na libovolně velké hrací ploše tvořené z šestiúhelníků. Velikost strany šestiúhelníku je 50 jednotek.
+#uživatel zadává souřadnice od 1 do a (a = počet sloupců) a od 1 do b (b = počet řádků). Souřadnice [1,1] je v levém horním poli.
 
 from turtle import forward, left, right, penup, pendown, speed, setpos, ycor, pensize, circle
 
@@ -80,5 +81,6 @@ while pocitadlo < (a*b):                                                        
         forward(40)
         pendown()
         circle(30)
+        left(39)
 
 exitonclick()
